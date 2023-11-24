@@ -1,0 +1,24 @@
+/*
+RESET
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+COMMON
+*/
+.js-title {
+  font-size: 4rem;
+}
+
+.text {
+  text-align: center;
+  color: blue;
+}
+
+.text-2 {
+  padding: 6.25rem;
+}

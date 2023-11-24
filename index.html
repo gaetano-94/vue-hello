@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VUE JS</title>
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- /MY CSS -->
   </head>
   <body>
-    <h1></h1>
+    <div id="title">
+      <h1 class="js-title" :class="mieClassi">{{ title }}</h1>
+    </div>
     <!-- VUE JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /VUE JS -->
